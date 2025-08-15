@@ -13,7 +13,7 @@ module tb;
   wire [WIDTH-1:0] dout;
   wire empty;
   
-  sync_fifo uut(
+  sync_fifo_32x8 uut(
     clk,rst,wr_en,din,full,rd_en,dout,empty);
   
  initial begin 
