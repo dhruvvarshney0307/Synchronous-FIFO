@@ -129,8 +129,6 @@ endtask
   else $display("FIFO empty flag set correctly");
 end 
   endtask
-  
-k
 
   //------------
 
